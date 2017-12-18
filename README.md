@@ -1,4 +1,4 @@
-# Image consulting through data science
+# Image consulting using data science
 This project presents a machine learning model that predicts the engagement of a tweet.
 
 Users and organizations care not only about the reach and impression of their tweets but also about the engagement for each tweet. It is of no value if the tweet has a high “potential” reach or has been viewed by many people, if nobody has interacted with it. Engagement is the metric that we use to measure such an interaction.
