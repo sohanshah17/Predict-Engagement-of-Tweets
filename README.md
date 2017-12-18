@@ -9,8 +9,11 @@ This model uses linguisting features of the tweet to predict engagement. As a re
 
 # Data Set
 150,000 tweets extracted from 60 celebrity Twitter accounts.
-Each tweet was labeled "High", "Medium" or "Low" depending on the engagement score calculated.
+Each tweet was labeled either "High" or "Low" depending on the engagement score calculated.
 25 linguisting features were used as variables to make the prediction - achievement, anger, emotional, envy, hate, irritability, joy, love, rage, sympathy, family, fashion, health, exercise, music, politics, government, positive emotion, negative emotion, sports, traveling and vacation.
 
 # Approach
-Several classification algorithms were used to make the prediction. Decision Trees gave the highest accuracy of 73.6% when only 2 labels were used in the data set ("High" and "Low").
+Several classification algorithms were used to make the prediction. 80% of the data set was used for training and the remaining 20% for testing. Decision Trees gave the highest accuracy of 73.6%.
+
+# Conclusion
+The engagement of a tweet can be predicted with an accuracy of 73.6% using just linguistic features from the tweet. This means that the prediction can be made even before the tweet is posted on twitter, giving the end-user the opportunity to modify tweet content to receive maximum engagement.
